@@ -108,14 +108,21 @@ app.post("/admin/rotate-root-cipher", authenticate, isAdmin, async (req, res) =>
 });
 
 // --- INIT ---
-const server = app.listen(PORT, async () => {
-    console.log(`[SERVER] Multi-Tenant IRIS API running on port ${PORT}`);
-    try {
-        await botManager.init();
-        console.log("[SERVER] Active instances restored.");
-    } catch (e) {
-        console.error("[SERVER] Failed to restore instances:", e.message);
-    }
-});
+// VERCEL COMPATIBILITY: Do NOT run app.listen or bot restoration in serverless environments.
+if (process.env.VERCEL !== '1' && process.env.NODE_ENV !== 'production') {
+    app.listen(PORT, async () => {
+        console.log(`[SERVER] Multi-Tenant IRIS API running on port ${PORT}`);
+        try {
+            await botManager.init();
+            console.log("[SERVER] Active instances restored.");
+        } catch (e) {
+            console.error("[SERVER] Failed to restore instances:", e.message);
+        }
+    });
+} else {
+    // On Vercel, we only restore botManager if explicitly needed by a request, 
+    // but Baileys won't work persistently here.
+    console.log("[SERVER] Running in Serverless Environment (Vercel). API Only Mode.");
+}
 
 module.exports = app;

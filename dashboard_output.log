@@ -624,3 +624,253 @@
 [0] [REQ] GET /instances
 [0] [REQ] GET /instances
 [0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] Closing session: SessionEntry {
+[0]   _chains: {
+[0]     'Bdq17ppxx8E73/y1RLYMNsJvgv5CqTFk2MSxeXy1/htA': { chainKey: [Object], chainType: 1, messageKeys: {} }
+[0]   },
+[0]   registrationId: 513345120,
+[0]   currentRatchet: {
+[0]     ephemeralKeyPair: {
+[0]       pubKey: <Buffer 05 da b5 ee 9a 71 c7 c1 3b df fc b5 44 b6 0c 36 c2 6f 82 fe 42 a9 31 64 d8 c4 b1 79 7c b5 fe 1b 40>,
+[0]       privKey: <Buffer 58 71 2c 55 cc 8a 85 8d a1 ff 98 ff 28 60 d9 da 5d 4f a9 99 99 63 19 08 3b f7 fc f7 7a 2f ac 43>
+[0]     },
+[0]     lastRemoteEphemeralKey: <Buffer 05 c9 a1 95 9e 69 49 75 82 a8 75 00 6b 2b e1 87 18 b1 ef 5c 03 6b 4d e7 6b e7 ed 44 c2 03 72 d1 34>,
+[0]     previousCounter: 0,
+[0]     rootKey: <Buffer 94 0b 75 99 83 22 dd 33 be 2e 57 9d 0f 61 a3 6d f0 30 65 ad bd a8 ab 26 96 b2 c1 f6 fa 5f c3 66>
+[0]   },
+[0]   indexInfo: {
+[0]     baseKey: <Buffer 05 48 2e 59 fc 22 b6 33 15 47 f0 27 dd 70 11 9d ec 2b 74 84 66 71 72 0b 05 c4 35 47 a7 b4 c7 37 65>,
+[0]     baseKeyType: 1,
+[0]     closed: -1,
+[0]     used: 1772325165713,
+[0]     created: 1772325165713,
+[0]     remoteIdentityKey: <Buffer 05 0a ed f7 06 33 9e 0b a0 38 c7 c5 bd 81 5b 17 a1 15 91 63 68 55 76 6b 6f ea 26 81 a6 41 3c 85 3c>
+[0]   },
+[0]   pendingPreKey: {
+[0]     signedKeyId: 5221103,
+[0]     baseKey: <Buffer 05 48 2e 59 fc 22 b6 33 15 47 f0 27 dd 70 11 9d ec 2b 74 84 66 71 72 0b 05 c4 35 47 a7 b4 c7 37 65>
+[0]   }
+[0] }
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[1]   Reload env: .env.local
+[1] ✓ Compiled in 475ms
+[1]  GET /dashboard 200 in 516ms (compile: 484ms, render: 32ms)
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [MANAGER] [b07ae9c2-a599-43af-8d6b-87789ef93751] INSTÂNCIA DESCONECTADA
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] ✅ [Iris] On-line para UUID: b07ae9c2-a599-43af-8d6b-87789ef93751
+[0] Closing session: SessionEntry {
+[0]   _chains: {
+[0]     BXipdWaJoKde8zhVA6IVvHH1gynXHPuOmysbO1LSqeEr: { chainKey: [Object], chainType: 1, messageKeys: {} }
+[0]   },
+[0]   registrationId: 1424224155,
+[0]   currentRatchet: {
+[0]     ephemeralKeyPair: {
+[0]       pubKey: <Buffer 05 78 a9 75 66 89 a0 a7 5e f3 38 55 03 a2 15 bc 71 f5 83 29 d7 1c fb 8e 9b 2b 1b 3b 52 d2 a9 e1 2b>,
+[0]       privKey: <Buffer e8 8c 3d f2 5e bc e0 1f a3 d8 d8 aa bd f6 41 15 63 2d ce 0a ee 7f 2c 8d 0f 1c 62 45 10 a3 29 73>
+[0]     },
+[0]     lastRemoteEphemeralKey: <Buffer 05 d8 69 b6 f6 d8 22 c7 49 16 31 a3 a9 38 66 a6 a5 b9 ff 35 6f 1a 91 77 f5 72 51 b7 37 20 13 74 63>,
+[0]     previousCounter: 0,
+[0]     rootKey: <Buffer a9 98 ff dc 70 bb 1c ee f0 4a 12 6d b0 ca 3b 9d ba e1 40 1c 08 99 37 80 89 37 50 94 9a 53 b3 15>
+[0]   },
+[0]   indexInfo: {
+[0]     baseKey: <Buffer 05 a3 d1 57 35 d0 30 15 c3 2c a8 0c 0b 5c a6 db 6b 3d 48 de ba f1 7c f5 9d cb 40 3b 0d 63 62 bd 72>,
+[0]     baseKeyType: 1,
+[0]     closed: -1,
+[0]     used: 1772331271514,
+[0]     created: 1772331271514,
+[0]     remoteIdentityKey: <Buffer 05 5b 3a d1 1f 60 54 1a df 9c 90 7b 98 21 bb 23 53 41 7a 2c 81 c2 a7 7f c4 01 ba cd 6d 7b ba c1 17>
+[0]   },
+[0]   pendingPreKey: {
+[0]     signedKeyId: 15385788,
+[0]     baseKey: <Buffer 05 a3 d1 57 35 d0 30 15 c3 2c a8 0c 0b 5c a6 db 6b 3d 48 de ba f1 7c f5 9d cb 40 3b 0d 63 62 bd 72>,
+[0]     preKeyId: 800
+[0]   }
+[0] }
+[0] Decrypted message with closed session.
+[0] Closing session: SessionEntry {
+[0]   _chains: {
+[0]     'BdAyv/LWK8NXOG7BziO5B4IsCdoSNu81+M9p4EWTpstp': { chainKey: [Object], chainType: 2, messageKeys: {} },
+[0]     BWgJlNkyZis4KHEAQvKpjLOihPuvThb41hd8gNMtIQdB: { chainKey: [Object], chainType: 2, messageKeys: [Object] },
+[0]     'Bcl8jkVwGCf+TY+dKQR2scm2pj1iITJTwhBk5hL08TZt': { chainKey: [Object], chainType: 1, messageKeys: {} }
+[0]   },
+[0]   registrationId: 2001055759,
+[0]   currentRatchet: {
+[0]     ephemeralKeyPair: {
+[0]       pubKey: <Buffer 05 c9 7c 8e 45 70 18 27 fe 4d 8f 9d 29 04 76 b1 c9 b6 a6 3d 62 21 32 53 c2 10 64 e6 12 f4 f1 36 6d>,
+[0]       privKey: <Buffer 80 cf 58 97 fc e2 81 d5 4a ed eb 8e cd c4 9e dc f6 04 d1 b2 ff b1 24 61 bb 39 6c 38 b0 c2 e8 6e>
+[0]     },
+[0]     lastRemoteEphemeralKey: <Buffer 05 68 09 94 d9 32 66 2b 38 28 71 00 42 f2 a9 8c b3 a2 84 fb af 4e 16 f8 d6 17 7c 80 d3 2d 21 07 41>,
+[0]     previousCounter: -1,
+[0]     rootKey: <Buffer 16 6a a5 74 aa 42 92 d4 80 b9 f6 7f f8 cf 80 4f f8 ee a0 32 a9 74 0c d8 43 38 85 04 e4 86 b4 1f>
+[0]   },
+[0]   indexInfo: {
+[0]     baseKey: <Buffer 05 97 a7 ab e6 07 9e db 86 e0 f7 5c d3 3c ae d1 4d 3b 8d af 99 cd 11 ce d5 55 f8 55 de f4 2a c8 09>,
+[0]     baseKeyType: 1,
+[0]     closed: -1,
+[0]     used: 1772332615674,
+[0]     created: 1772332287656,
+[0]     remoteIdentityKey: <Buffer 05 2d 0e aa 09 80 24 9c e3 15 83 59 f7 23 d7 ca 80 c5 3b cd ed e6 e9 fa c7 80 7d 3d 63 bb d9 6c 16>
+[0]   }
+[0] }
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] [REQ] GET /instances
+[0] Terminated
+[0] npm run dev --workspace=backend exited with code 143
+[1] Terminated
+[1] [?25h
+[1] npm run dev --workspace=frontend exited with code 143
