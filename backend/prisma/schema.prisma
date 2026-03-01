@@ -1,0 +1,62 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String     @id @default(uuid())
+  email        String     @unique
+  password     String
+  name         String?
+  role         String     @default("CLIENT")
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+  securityHash String?    @default("SHA256-INIT-HASH")
+  instances    Instance[]
+  licenses     License[]
+}
+
+model License {
+  id           String    @id @default(uuid())
+  key          String    @unique
+  durationDays Int       @default(30)
+  expiresAt    DateTime?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+  activatedAt  DateTime?
+  boundUserId  String?
+  status       String    @default("ACTIVE")
+  user         User?     @relation(fields: [boundUserId], references: [id])
+}
+
+model Instance {
+  id          String        @id @default(uuid())
+  name        String
+  userId      String
+  adminNumber String?
+  botNumber   String?
+  pairingType String        @default("QR")
+  status      String        @default("inactive")
+  connection  String        @default("DISCONNECTED")
+  sessionPath String?       @unique
+  lastQR      String?
+  pairingCode String?
+  config      String?
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+  user        User          @relation(fields: [userId], references: [id])
+  logs        InstanceLog[]
+}
+
+model InstanceLog {
+  id         String   @id @default(uuid())
+  instanceId String
+  message    String
+  level      String   @default("info")
+  createdAt  DateTime @default(now())
+  instance   Instance @relation(fields: [instanceId], references: [id])
+}

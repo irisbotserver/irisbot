@@ -1,0 +1,10 @@
+node_modules
+auth_iris
+baileys_db.json
+baileys_store.json
+*.log
+.env
+auth_*
+database/
+bot-core/
+scripts/

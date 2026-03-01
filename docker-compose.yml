@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: wwp-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: wwp_saas
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+  backend:
+    build: ./backend
+    container_name: wwp-backend
+    restart: always
+    environment:
+      DATABASE_URL: "postgresql://user:password@postgres:5432/wwp_saas?schema=public"
+      JWT_SECRET: "your_super_secret"
+    ports:
+      - "3001:3001"
+    depends_on:
+      - postgres
+    volumes:
+      - ./backend/auth_sessions:/app/auth_sessions
+
+  frontend:
+    build: ./frontend
+    container_name: wwp-frontend
+    restart: always
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+volumes:
+  postgres-data:
